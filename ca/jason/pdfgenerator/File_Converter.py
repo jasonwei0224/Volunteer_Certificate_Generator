@@ -11,10 +11,10 @@ class File_Converter:
         pass
 
     def word_to_pdf(self, filename) -> int:
-    """
-    Converts given word file to pdf
-    
-    """
+        """
+        Converts given word file to pdf
+
+        """
         PDFformat = 17
 
         word = comtypes.client.CreateObject('Word.Application')
